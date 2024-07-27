@@ -1,0 +1,19 @@
+{
+  "name": "struct-adapter",
+  "version": "1.0.0",
+  "description": "A simple example of the Adapter Pattern in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Jeyakarthika",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "undici-types": "^5.26.5"
+  },
+  "keywords": []
+}
