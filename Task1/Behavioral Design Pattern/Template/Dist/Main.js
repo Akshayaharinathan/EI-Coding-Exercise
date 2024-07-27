@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Coffee_1 = require("./Coffee");
+const Tea_1 = require("./Tea");
+const coffee = new Coffee_1.Coffee();
+const tea = new Tea_1.Tea();
+console.log("Preparing coffee:");
+coffee.prepareRecipe();
+console.log("\nPreparing tea:");
+tea.prepareRecipe();
